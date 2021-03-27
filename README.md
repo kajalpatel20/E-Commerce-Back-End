@@ -1,4 +1,4 @@
-# 13  E-Commerce Back End
+#  E-Commerce Back End
 ## User Story
 
 AS A manager at an internet retail company.
@@ -87,6 +87,6 @@ The following links show the web application's appearance and functionality:
 
 The repo for this project can be found here: 
 
-https://github.com/kajalpatel20/E-Commerce-Back-End
+    https://github.com/kajalpatel20/E-Commerce-Back-End
 
 For any questions or to report issues, email me at: kajalpatel20@gmail.com
