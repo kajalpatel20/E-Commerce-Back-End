@@ -45,7 +45,7 @@ router.get('/:id', (req, res) => {
       ]
     }
   ).then(productData => res.json(productData))
-   .catch(err => res.status(500).json(err))
+    .catch(err => res.status(500).json(err))
 });
 
 // create new product
@@ -133,7 +133,7 @@ router.delete('/:id', (req, res) => {
       res.status(404).json({ message: "No product found with that id." });
       return;
     }
-    res.json(productData)
+    res.status(200).json(productData)
   }).catch(err => res.status(500).json(err))
 });
 

@@ -1,20 +1,14 @@
-# 13 Object-Relational Mapping (ORM): E-Commerce Back End
-
-## Your Task
-
-Internet retail, also known as **e-commerce**, is the largest sector of the electronics industry, generating an estimated $29 trillion in 2019. E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to their prevalence, understanding the fundamental architecture of these platforms will benefit you as a full-stack web developer.
-
-Your task is to build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
-
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality and all of the acceptance criteria being met. You’ll need to submit a link to the video and add it to the readme of your project.
+# 13  E-Commerce Back End
 
 ## User Story
 
-```md
-AS A manager at an internet retail company
+AS A manager at an internet retail company.
 I WANT a back end for my e-commerce website that uses the latest technologies
 SO THAT my company can compete with other e-commerce companies
-```
+
+ ## Description: 
+
+As this Application allow user to retrieve, update, delete or create data for products, their tags, and their categories. The database create 3 tables that are joined where needed through Sequelize in the routes files. The tables themselves are created and modeled through the models present in the models folders and again make use of Sequelize syntax.
 
 ## Acceptance Criteria
 
@@ -52,7 +46,7 @@ Your walkthrough video should also show the POST, PUT, and DELETE routes for pro
 
 You’ll need to use the [MySQL2](https://www.npmjs.com/package/mysql2) and [Sequelize](https://www.npmjs.com/package/sequelize) packages to connect your Express.js API to a MySQL database and the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data.
 
-Use the `schema.sql` file in the `db` folder to create your database with MySQL shell commands. Use environment variables to store sensitive data like your MySQL username, password, and database name.
+Use the `schema.sql` file in the `db` folder to create your database with MySQL shell commands. 
 
 ### Database Models
 
@@ -184,15 +178,6 @@ After creating the models and routes, run `npm run seed` to seed data to your da
 
 Create the code needed in `server.js` to sync the Sequelize models to the MySQL database on server start.
 
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Deliverables: 10%
-
-* The GitHub repository containing your application code.
-
-### Walkthrough Video: 37%
 
 * A walkthrough video that demonstrates the functionality of the e-commerce back end must be submitted, and a link to the video should be included in your readme file.
 
@@ -210,9 +195,7 @@ This homework is graded based on the following criteria:
 
 * The walkthrough video must demonstrate POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia Core.
 
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following:
+## Installation:
 
   * Connects to a MySQL database using the [MySQL2](https://www.npmjs.com/package/mysql) and [Sequelize](https://www.npmjs.com/package/sequelize) packages.
 
@@ -236,13 +219,26 @@ This homework is graded based on the following criteria:
 
 * Repository contains quality readme with description and a link to a walkthrough video.
 
-## Review
 
-You are required to submit BOTH of the following for review:
 
 * A walkthrough video demonstrating the functionality of the application and all of the acceptance criteria being met.
 
-* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
 
----
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+  [Demo video link]()
+
+
+* The URL of the GitHub repository:
+
+https://github.com/kajalpatel20/E-Commerce-Back-End
+
+## License:
+ APACHE 2.0
+
+  [![Github License](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)]
+## Questions:
+
+The repo for this project can be found here: 
+
+https://github.com/kajalpatel20/E-Commerce-Back-End
+
+For any questions or to report issues, email me at: kajalpatel20@gmail.com
